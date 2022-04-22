@@ -68,3 +68,5 @@ Route::resource('photos', 'PhotoController');
 
 Route::get('/Myself', 'HomeController@Myself');
 Route::get('/Yourself', 'HomeController@Yourself');
+
+Route::get('/', 'HomeController@MyHome');
